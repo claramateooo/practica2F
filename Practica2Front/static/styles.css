@@ -1,0 +1,129 @@
+.title {
+  color: #a6ffe1; 
+  font-size: 40px; 
+  margin-bottom: 20px; 
+}
+
+.name {
+  color: #00fbff; 
+  font-weight: bold; 
+}
+
+.creator {
+  color: #fa72e8;
+}
+body {
+  background: linear-gradient(45deg, #FFC107, #FF4081, #3F51B5, #4CAF50);
+}
+.pokemon-details {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.pokemon-name {
+  font-size: 44px;
+  color: #efff40;
+}
+
+.pokemon-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.pokemon-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.pokemon-details-container {
+  text-align: left;
+}
+
+.pokemon-details-container p {
+  margin-bottom: 10px;
+}
+
+.pokemon-details-container strong {
+  color: #ffffff;
+}
+
+.pokemon-detail-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+.search-button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.search-button:hover {
+  background-color: #45a049; 
+}
+
+.creation-button {
+  background-color: #ff69af; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.creation-button:hover {
+  background-color: #005f6b; /* Darker Blue */
+}
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pokemon-container {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+.pokemon-creator {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-creator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pokemon-creator-header h1 {
+  margin: 0;
+}
+
+
+
+
